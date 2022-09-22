@@ -21,7 +21,7 @@ const ContentScrollbar = ({ value, setViewerController }) => {
 				<span className={classes.item__Span}>Olga Nelson &#x2022; Dec 17</span>
 				<h5
 					className={
-						value !== "One" ? classes["newTitle"] : classes["item__title"]
+						value !== "One" ? classes["newTitle"] : classes["item__Title"]
 					}
 				>
 					New sprintm tasks and intro information

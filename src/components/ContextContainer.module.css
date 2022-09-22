@@ -1,0 +1,28 @@
+.contextContainer {
+	display: flex;
+	width: 1040px;
+	height: 718px;
+	background-color: #fff;
+	margin-left: 20px;
+	border-radius: 0px 0px 12px 12px;
+	margin-top: 1px;
+}
+
+.header {
+    display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 66px;
+	margin-top: 40px;
+	margin-left: 20px;
+	background-color: #fff;
+	border-radius: 12px 12px 0px 0px;
+	padding: 16px 24px;
+    text-transform: uppercase;
+    color: #0165FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+

@@ -1,0 +1,43 @@
+.ContentWrapper {
+    display: flex;
+    flex-direction: row;
+	flex-basis: 70%;
+    flex-wrap: wrap;
+}
+
+h2{
+    width: 100%;
+    height: 20px;
+    margin-top: 4px;
+    margin-left: 30px;
+}
+
+ div{
+    align-items: flex-start;
+}
+
+.image{
+    flex-basis: 10%;
+    padding-left: 10px;
+}
+.textWrapper{
+    flex-basis: 90%;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.ContentWrapper span:nth-child(1){
+    font-weight: bold;
+    padding: 0
+}
+.ContentWrapper span:nth-child(2){
+   color: #6B778C;
+   font-size: 12px;
+}
+.ContentWrapper p{
+    font-size: 13px;
+    line-height: 26px;
+    color: #6B778C;
+}
+
+

@@ -1,0 +1,30 @@
+.list{
+    margin: 0;
+    padding: 40px 20px 20px 20px;
+    list-style: none;
+    color: black;
+}
+li{
+    margin-left: 25px;
+    padding-bottom: 15px;
+    list-style-image: url("../image/check.png");
+    color: black
+}
+
+li:nth-child(4){
+    list-style-image: url("../image/next.png");
+}
+
+li:nth-child(5){
+    color: #AEB5C1;
+    list-style-image: url("../image/lock.png");
+}
+
+
+.active{
+    font-weight: bold;
+    color: black;
+}
+.notActive{
+    color: black;
+}
